@@ -20,7 +20,8 @@ header {
 button {
     padding: 10px 20px;
     margin-top: 10px;
-    cursor: pointer;
+	cursor : pointer
+
 }
 
 /* Dark Theme */
@@ -70,14 +71,7 @@ body.dark #achievements li {
 	background: #2a2a2a;
 }
 
-#achievements li:hover {
-	transform: translateX(5px);
-	box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
-}
 
-body.dark #achievements li:hover {
-	box-shadow: 0 3px 8px rgba(255, 255, 255, 0.1);
-}
 
 
 
@@ -125,14 +119,5 @@ body.dark #projects {
 
 body.dark #projects li {
 	background: #2a2a2a;
-}
-
-#projects li:hover {
-	transform: translateX(5px);
-	box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
-}
-
-body.dark #projects li:hover {
-	box-shadow: 0 3px 8px rgba(255, 255, 255, 0.1);
 }
 
